@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="black">
+<h1 style="text-align: center;"><span style="font-family:courier new,courier,monospace;"><span style="color:#FF0000;">RAT&nbsp;</span><font color="#ff0000">Dobby dashboard</font></span></h1>
+
+<p>&nbsp;</p>
+
+<form action="{{ url_for("command_input")}}" method="post">
+<p><span style="color:#FF0000;"><span style="font-family:courier new,courier,monospace;"><label id="fname" for="firstname">command:</label></span></span></p>
+
+<p><span style="color:#FF0000;"><span style="background-color:#000000;"><input id="firstname" name="fname" placeholder="" type="text" style="font-face: 'monospace'; color: red; background-color: black;"/></span></span></p>
+
+<p><span style="color:#FF0000;"><button type="submit" style="font-face: 'monospace'; color: red; background-color: black;">Write</button> </span></p>
+</form>
+
+<p><iframe align="middle" frameborder="0" height="200" id="myframe2" longdesc="https://c2c-server.posydon.repl.co" scrolling="no" src="https://c2c-server.posydon.repl.co" width="900"></iframe></p>
+<script>
+var frame = document.getElementById('myframe2');
+    frame.onload = function () {
+        var body = frame.contentWindow.document.querySelector('body');
+        body.style.color = 'red';
+        body.style.fontSize = '20px';
+        body.style.lineHeight = '20px';
+    };
+</script>
+
+<p><iframe frameborder="1" height="200" id="myFrame" longdesc="https://c2c-server.posydon.repl.co/output" scrolling="yes" src="https://c2c-server.posydon.repl.co/output" style=";" width="200"></iframe></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<script>
+var frame = document.getElementById('myFrame');
+    frame.onload = function () {
+        var body = frame.contentWindow.document.querySelector('body');
+        body.style.color = 'red';
+        body.style.fontSize = '20px';
+        body.style.lineHeight = '20px';
+    };
+</script>
+
+<p><a href="/clear_output"><input type="button" style="font-face: 'monospace'; color: red; background-color: black;" value="clear output" /></a></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</body>
+</html>

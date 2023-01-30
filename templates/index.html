@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background-color: black"><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type=text/javascript>
+        $(function() {
+          $('a#test').on('click', function(e) {
+            e.preventDefault()
+            $.getJSON('/send_script',
+                function(data) {
+              //do nothing
+            });
+            return false;
+          });
+        });
+</script>
+<div class="container">
+<h3 style="text-align: center; color:red; font-family:monospace">Send Script</h3>
+
+<form action="https://c2c-server.posydon.repl.co/send_script">
+<p style="text-align: center;"><button class="btn btn-default"style="color:red; background-color:black;">Send</button></p>
+</form>
+</div>
+</body>
+</html>

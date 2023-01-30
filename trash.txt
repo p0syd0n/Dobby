@@ -1,0 +1,15 @@
+password = b"password"
+kdf = nacl.pwhash.argon2i.kdf # key derivation function
+salt_size = nacl.pwhash.argon2i.SALTBYTES 
+salt = nacl.utils.random(salt_size)
+salt = b'U\x1b\xf7i\xd6\x8f5*\x89\xaa\x84\xfas.M,'
+print(salt)
+key = kdf(nacl.secret.SecretBox.KEY_SIZE, password, salt)
+print(key)
+key = b';3\xff\x07\x84\x90wb\x91OFS/\x02\xe7\xfb\xf8\x1dt\xa8\xee\x81{\xe2C\xee\xc9\xdc[m\x91\x9a'
+
+
+def encrypt(key, content):
+  box = nacl.secret.SecretBox(key)
+  encrypted = box.encrypt(content)
+  return encrypted

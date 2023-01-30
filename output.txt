@@ -1,0 +1,75 @@
+
+False
+beans
+cheese
+75.130.243.162
+recieved: 
+got thy goods
+
+False
+False
+False
+False
+False
+False
+False
+False
+False
+beans
+cheese
+34.138.43.146
+recieved: 
+got thy goods
+
+recieved: 
+got to messagebox elif statement
+
+False
+beans
+cheese
+34.138.43.146
+recieved: 
+got thy goods
+
+recieved: 
+got to messagebox elif statement
+
+beans
+cheese
+34.138.43.146
+recieved: 
+got thy goods
+
+recieved: 
+got to messagebox elif statement
+
+beans
+cheese
+34.138.43.146
+recieved: 
+got thy goods
+
+recieved: 
+got to messagebox elif statement
+
+False
+beans
+cheese
+34.138.43.146
+recieved: 
+got thy goods
+
+recieved: 
+got to messagebox elif statement
+
+beans
+cheese
+34.138.43.146
+recieved: 
+got thy goods
+
+recieved: 
+got to messagebox elif statement
+
+False
+False
