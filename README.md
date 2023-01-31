@@ -7,4 +7,5 @@ The server comes with a web interface which is very crudely and badly made becau
 
 ![screenshot of dashboard](https://github.com/p0syd0n/Dobby/blob/main/Screenshot%202023-01-31%209.38.10%20AM.png?raw=true)
 A picture of the server hosted on replit(very much more usefull, because it gives you a free url and server and everything):
-![screenshot of dashboard](https://github.com/p0syd0n/Dobby/blob/main/Screenshot%202023-01-31%209.38.10%20AM.png?raw=true)
+![screenshot of dashboard](https://github.com/p0syd0n/Dobby/blob/main/Screenshot%202023-01-31%209.44.30%20AM.png?raw=true)
+(the command on the command storage tab will send a messagebox with a title of "hello", a message of "fuck you"
