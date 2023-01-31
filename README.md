@@ -6,3 +6,5 @@ The server can be hosted on replit, which I would recommend because it is easy a
 The server comes with a web interface which is very crudely and badly made because I am a backend person. 
 
 ![screenshot of dashboard](https://github.com/p0syd0n/Dobby/blob/main/Screenshot%202023-01-31%209.38.10%20AM.png?raw=true)
+A picture of the server hosted on replit(very much more usefull, because it gives you a free url and server and everything):
+![screenshot of dashboard](https://github.com/p0syd0n/Dobby/blob/main/Screenshot%202023-01-31%209.38.10%20AM.png?raw=true)
