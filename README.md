@@ -5,4 +5,4 @@ The server can be hosted on replit, which I would recommend because it is easy a
 
 The server comes with a web interface which is very crudely and badly made because I am a backend person. 
 
-![screenshot of dashboard](https://replit.com/@posydon/profrv2#beans.png)
+![screenshot of dashboard](Screenshot 2023-01-31 9.38.10 AM.png)
